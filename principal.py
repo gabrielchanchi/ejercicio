@@ -26,3 +26,10 @@ n3 = float( input("Ingreasa medida del lado c: " ))
 
 res = Volumen_del_paralelepipedo(n1,n2,n3)
 print(f"El volumen es {res}")
+
+def area_esfera(radio):
+    area=4*3.1415*(radio*radio)
+    return print(f"el area de la esfera es {area}")
+
+radio=int(input("ingrese el radio:" ))
+area= area_esfera(radio)
