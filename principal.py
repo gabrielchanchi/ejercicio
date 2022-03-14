@@ -26,3 +26,8 @@ n3 = float( input("Ingreasa medida del lado c: " ))
 
 res = Volumen_del_paralelepipedo(n1,n2,n3)
 print(f"El volumen es {res}")
+
+def volcub(a):
+    volC = a * a * a
+    print(f"El volúmen del cubo es: {volC} cm")
+volcub(5)
