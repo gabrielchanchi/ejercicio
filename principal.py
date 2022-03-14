@@ -9,3 +9,4 @@ def rhombusArea(d1,d2):
 	
 area_cuadrado(6) 
 	
+teoremaHeron(a,b,c)
