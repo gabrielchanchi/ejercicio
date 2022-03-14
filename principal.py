@@ -7,22 +7,10 @@ def rhombusArea(d1,d2):
     area = (d1*d2)/2
     return area
 
-def circleArea(r):
-    result = (math.pi)*(r*r)
-    return result
-	
+def vol_esfera(radio):
+	area = (4/3)(3.1415*pow(radio,3))
+	return area
+
 area_cuadrado(6) 
-rhombusArea(5,10):
+vol_esfera(5)
 	
-
-# volumen de un paralelepipedo Jaime Díaz
-def Volumen_del_paralelepipedo(n1,n2,n3):
-    volum = (n1*n2*n3)
-    return volum
-    
-n1 = float( input("Ingreasa medida del lado a: " ))
-n2 = float( input("Ingreasa medida del lado b: " ))
-n3 = float( input("Ingreasa medida del lado c: " ))
-
-res = Volumen_del_paralelepipedo(n1,n2,n3)
-print(f"El volumen es {res}")
