@@ -9,4 +9,11 @@ def rhombusArea(d1,d2):
 	
 area_cuadrado(6) 
 	
-teoremaHeron(a,b,c)
+
+def teoremaHeron(a,b,c):
+    s = (a+b+c)/2
+    area = math.sqrt(s(s-a)(s-b)(s-c))
+    return area
+  
+teoremadeHeron = teoremaHeron(5,6,3)
+print(f"el area es: {teoremadeHeron}")
