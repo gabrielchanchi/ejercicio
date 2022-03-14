@@ -16,6 +16,10 @@ def Volumen_del_paralelepipedo(n1,n2,n3):
     volum = (n1*n2*n3)
     return volum
 	
+def area(b1,b2,h):
+    area=((b1+b2)*h)/2
+    return area
+
 area_cuadrado(6) 
 rhombusArea(5,10):
 	
@@ -26,3 +30,5 @@ n3 = float( input("Ingreasa medida del lado c: " ))
 
 res = Volumen_del_paralelepipedo(n1,n2,n3)
 print(f"El volumen es {res}")
+
+
